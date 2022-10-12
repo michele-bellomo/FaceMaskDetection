@@ -6,9 +6,9 @@ Competition held within the "Artificial Neural Networks and Deep Learning" cours
 3) no one wears masks
 
 I addressed this problem using convolutional neural networks.
-Initially I have built from scratch an "ad hoc" architecture.
-Subsequently, I have exploited some of the main architectures already trained on Imagenet (VGG, ResNet, Inception...), calibrating them through fine tuning.
+Initially I tried to use a neutral network whose architecture was built from scratches. The results were good, but not entirely satisfactory.
+Subsequently, I have tested neural networks obtained by fine tuning calibration of some of the main architectures avaible on Imagenet (VGG, ResNet, Inception...).
 
-The best result was achieved using the "Inception" architecture, to which I added a fully connected layer before the final softmax. The accuracy was 0.95 on the validation set and 0.938 in the Kaggle submission.
+The best result was achieved using the "Inception" architecture, to which a fully connected layer before the final softmax was added. The accuracy was 0.95 on the validation set and 0.938 in the Kaggle submission.
 
 The file "fromScratch.ipynb" contains the implementation of the architecture designed from scratch, while "" is the code of the best performing algorithm based on Inception architecture. 
