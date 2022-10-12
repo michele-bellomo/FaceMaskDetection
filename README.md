@@ -13,4 +13,4 @@ Subsequently, I have tested neural networks obtained by fine tuning calibration 
 
 The best result was achieved using the "Inception" architecture, to which a fully connected layer before the final softmax was added. The accuracy was 0.95 on the validation set and 0.938 in the Kaggle submission.
 
-The file "fromScratch.ipynb" contains the implementation of the architecture designed from scratch, while "" is the code of the best performing algorithm based on Inception architecture. 
+The file "fromScratch.ipynb" contains the implementation of the architecture designed from scratch, while "TransferLearning_InceptionV3+FC.ipynb" is the code of the best performing algorithm based on Inception architecture. 
