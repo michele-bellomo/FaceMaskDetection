@@ -1,6 +1,6 @@
 # Kaggle Competition: Face Mask Detection
 
-Competition held within the "Artificial Neural Networks and Deep Learning" course, held by professor Matteo Matteucci at Politecnico di Milano in the first semester of the academic year 2020/2021. The challenge consisted in designing an algorithm to classify a set of photos according to the following scenarios:
+Competition held within the "Artificial Neural Networks and Deep Learning" course, held by professor Matteo Matteucci at Politecnico di Milano in the first semester of the academic year 2020/2021. The challenge consisted in designing an algorithm to classify a set of pictures according to the following scenarios:
 1) all present wear masks
 2) some of those present (but not all) wear masks
 3) no one wears masks
