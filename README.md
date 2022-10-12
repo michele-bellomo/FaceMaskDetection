@@ -9,7 +9,7 @@ More information is available at:  <a>https://www.kaggle.com/competitions/artifi
 
 I addressed this problem using convolutional neural networks.
 Initially I tried to use a neutral network whose architecture was built from scratches. The results were good, but not entirely satisfactory.
-Subsequently, I have tested neural networks obtained by fine tuning calibration of some of the main architectures avaible on Imagenet (VGG, ResNet, Inception...).
+Therefore I adopted a transfer learning approach, using neural networks obtained by fine tuning calibration of some of the main architectures avaible on Imagenet (VGG, ResNet, Inception...).
 
 The best result was achieved using the "Inception" architecture, to which a fully connected layer before the final softmax was added. The accuracy was 0.95 on the validation set and 0.938 in the Kaggle submission.
 
