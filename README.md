@@ -4,6 +4,7 @@ Competition held within the "Artificial Neural Networks and Deep Learning" cours
 1) all present wear masks
 2) some of those present (but not all) wear masks
 3) no one wears masks
+
 I addressed this problem using convolutional neural networks.
 Initially I have built from scratch an "ad hoc" architecture.
 Subsequently, I have exploited some of the main architectures already trained on Imagenet (VGG, ResNet, Inception...), which I have calibrated through fine tuning to solve this specific task.
