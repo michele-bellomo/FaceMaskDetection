@@ -10,4 +10,5 @@ Initially I have built from scratch an "ad hoc" architecture.
 Subsequently, I have exploited some of the main architectures already trained on Imagenet (VGG, ResNet, Inception...), calibrating them through fine tuning.
 
 The best result was achieved using the "Inception" architecture, to which I added a fully connected layer before the final softmax. The accuracy was 0.95 on the validation set and 0.938 in the Kaggle submission.
+
 The file "fromScratch.ipynb" contains the implementation of the architecture designed from scratch, while "" is the code of the best performing algorithm based on Inception architecture. 
