@@ -5,7 +5,7 @@ Competition carried out during the "Artificial Neural Networks and Deep Learning
 2) some of those present (but not all) wear masks
 3) no one wears masks
 
-More information is available at:  <a>https://www.kaggle.com/competitions/artificial-neural-networks-and-deep-learning-2020/overview</a>
+More information is available at:  <a>https://www.kaggle.com/competitions/artificial-neural-networks-and-deep-learning-2020</a>
 
 I addressed this problem using convolutional neural networks.
 Initially I tried to use a neutral network whose architecture was built from scratches. The results were good, but not entirely satisfactory.
